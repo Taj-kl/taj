@@ -11,6 +11,11 @@ brick.buttonEnter.onEvent(ButtonEvent.Pressed, function () {
     motors.largeAD.tank(10, 10, 1, MoveUnit.Rotations)
     motors.largeAD.tank(1000, 1000, 4, MoveUnit.Rotations)
     motors.largeAD.tank(-100, 100, 1, MoveUnit.Rotations)
+    motors.largeBC.tank(-50, 50)
+    motors.largeBC.tank(50, 50, 4, MoveUnit.Rotations)
+    motors.largeBC.tank(50, -50)
+    motors.largeBC.tank(50, 50, 4, MoveUnit.Rotations)
+    motors.largeBC.tank(50, 50)
 })
 forever(function () {
 	
